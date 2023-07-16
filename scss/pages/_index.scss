@@ -1,0 +1,31 @@
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.title-1 {
+  font-size:128px;
+  letter-spacing: 0.12em;
+}
+img{
+  max-width:636px;
+}
+.describe{
+  background: #efefef;
+}
+.title-2{
+  font-size: 40px;
+  color:#ae0000;
+  border-bottom: 1px solid #ae0000;
+}
+.social-list .social-item{
+  display: inline-block;
+  vertical-align: middle;
+  a{
+    opacity: 0.5;
+    transition:all .5s;
+    &:hover{
+      opacity: 1;
+    }
+  }
+}
+
